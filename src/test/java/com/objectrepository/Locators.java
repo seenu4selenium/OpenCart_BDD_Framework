@@ -66,7 +66,9 @@ public class Locators {
 	public final By openCartSuccessPage_Continue_button = By.xpath("//*[text()='Continue']");
 	public final By opencartBooking_checkbox_button=By.xpath("//input[@type='checkbox']");
 	
-
+	//Search Functionality
+			public final By opencartSearch_product= By.xpath("//input[@name='search']");
+			public final By opencartSearch_button= By.xpath("//button [@class='btn btn-default btn-lg']");
 	
 	
 	
